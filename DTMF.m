@@ -1,4 +1,4 @@
-﻿clc                 % Clearing Screen
+﻿clc                % Clearing Screen
 clear all           % Clearing previous variables
 
 s = 8192;   %suitable sampling frequency to give best sound
@@ -17,7 +17,6 @@ l3 = 2*pi*852/s;
 l4 = 2*pi*941/s;
  
 %generating 1000 sample rates
- 
 z=zeros(1,1000); %time between each tone and another
  
 N=1000;
